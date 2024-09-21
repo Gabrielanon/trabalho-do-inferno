@@ -9,7 +9,7 @@ body {
     background-color: #f0f0f0;
 }
 
-h1 {
+h1, h2 {
     color: #333;
 }
 
@@ -20,7 +20,7 @@ button {
     margin-top: 10px;
 }
 
-#mensagem, #textoDigitado {
+#mensagem, #textoDigitado, #contadorCliques, #quizResultado, #contadorTempo {
     margin-top: 20px;
     font-size: 18px;
     color: #007BFF;
@@ -30,4 +30,16 @@ input {
     padding: 10px;
     font-size: 16px;
     margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
 }
