@@ -3,17 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Interativo</title>
+    <title>Site Super Interativo</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <h1>Bem-vindo ao Site Interativo</h1>
+    <h1>Bem-vindo ao Site Super Interativo</h1>
     <button id="meuBotao">Clique em mim!</button>
     <p id="mensagem"></p>
 
     <input type="text" id="meuInput" placeholder="Digite algo...">
     <button id="mostrarTexto">Mostrar Texto</button>
     <p id="textoDigitado"></p>
+
+    <button id="mudarCor">Mudar Cor de Fundo</button>
+
+    <button id="contarCliques">Contar Cliques</button>
+    <p id="contadorCliques">Cliques: 0</p>
+
+    <input type="text" id="itemInput" placeholder="Adicionar item...">
+    <button id="adicionarItem">Adicionar Item</button>
+    <ul id="listaItens"></ul>
+
+    <h2>Quiz Interativo</h2>
+    <p>Qual é a capital do Brasil?</p>
+    <button class="quizBtn" data-answer="Brasília">Brasília</button>
+    <button class="quizBtn" data-answer="São Paulo">São Paulo</button>
+    <button class="quizBtn" data-answer="Rio de Janeiro">Rio de Janeiro</button>
+    <p id="quizResultado"></p>
+
+    <h2>Contador de Tempo</h2>
+    <p id="contadorTempo">0 segundos</p>
+    <button id="iniciarContador">Iniciar Contador</button>
+
+    <h2>Gráfico Interativo</h2>
+    <canvas id="meuGrafico" width="400" height="200"></canvas>
 
     <script src="script.js"></script>
 </body>
