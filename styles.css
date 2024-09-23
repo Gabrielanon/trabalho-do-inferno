@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
     padding: 20px;
@@ -65,8 +65,11 @@ li {
 
 @media (max-width: 600px) {
     body {
-        height: auto;
         padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
     }
 
     button {
